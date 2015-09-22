@@ -46,9 +46,9 @@
     [self.view addSubview:mapView];
     
     // ピンを立てる
-    [self addPinOn:mapView title:@"アヤラ" subtitle:@"セブで一番大きい"
+    [self addPinOn:mapView title:@"Ayala" subtitle:@"セブで一番大きい"
                 at:CLLocationCoordinate2DMake(10.317347, 123.905759)];
-    [self addPinOn:mapView title:@"SMモール" subtitle:@"セブで二番目に大きい"
+    [self addPinOn:mapView title:@"SM Mall" subtitle:@"セブで二番目に大きい"
                 at:CLLocationCoordinate2DMake(10.311715, 123.918332)];
     [self addPinOn:mapView title:@"2QUAD" subtitle:@"NexSeed はこの12階"
                 at:CLLocationCoordinate2DMake(10.3142719, 123.9053564)];
